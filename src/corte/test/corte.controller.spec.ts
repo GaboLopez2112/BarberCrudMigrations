@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { CorteController } from './corte.controller';
-import { CorteService } from './corte.service';
+import { CorteController } from '../corte.controller';
+import { CorteService } from '../corte.service';
 
 describe('CorteController', () => {
   let controller: CorteController;

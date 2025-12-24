@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { CitaController } from './cita.controller';
-import { CitaService } from './cita.service';
+import { CitaController } from '../cita.controller';
+import { CitaService } from '../cita.service';
 
 describe('CitaController', () => {
   let controller: CitaController;

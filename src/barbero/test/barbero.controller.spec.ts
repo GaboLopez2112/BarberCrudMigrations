@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { BarberoController } from './barbero.controller';
-import { BarberoService } from './barbero.service';
+import { BarberoController } from '../barbero.controller';
+import { BarberoService } from '../barbero.service';
 
 describe('BarberoController', () => {
   let controller: BarberoController;
