@@ -1,0 +1,26 @@
+POST http://localhost:3000/corte/create
+Content-Type: application/json
+
+{
+  "nombreCorte": "Moicano",
+  "detalleCorte": "CORTE CON LADOS CON LA  UNO"
+}
+
+
+###listar corte
+GET localhost:3000/corte/listar
+
+###listar corte POR ID
+GET localhost:3000/corte/776fee11-a58b-488c-9078-4369d83cf184
+
+###ACTUALIZAR
+PUT localhost:3000/corte/776fee11-a58b-488c-9078-4369d83cf184
+Content-Type: application/json
+
+{
+  "nombreCorte": "AFRICANO",
+  "detalleCorte": "SOLO PEIANDO"
+}
+
+###ELIMINAR
+DELETE localhost:3000/corte/776fee11-a58b-488c-9078-4369d83cf184

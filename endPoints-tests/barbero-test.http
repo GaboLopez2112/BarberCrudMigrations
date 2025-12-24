@@ -1,0 +1,27 @@
+### Create Barber
+POST http://localhost:3000/barbero/create
+Content-Type: application/json
+
+{
+  "dniBarber": "175134asd9057",
+  "nameBarber": "Michal"
+}
+
+### Get barber
+GET http://localhost:3000/barbero/listar
+
+### Get barber by id
+GET http://localhost:3000/barbero/3b3a1ee9-b689-405a-9ac3-e7219b9d5a46
+
+### Update barber
+PUT http://localhost:3000/barbero/3b3a1ee9-b689-405a-9ac3-e7219b9d5a46
+Content-Type: application/json
+
+{
+  "dniBarber": "aas2323###",
+  "nameBarber": "Gabriela Pazmiño"
+}
+
+### Delete barber
+DELETE http://localhost:3000/barbero/e1a6a16f-a68c-4685-ac8b-bad3f0b0062d
+
