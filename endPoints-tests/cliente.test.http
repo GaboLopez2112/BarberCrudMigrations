@@ -1,0 +1,32 @@
+### crear cliente
+POST http://localhost:3000/cliente/crear
+Content-Type: application/json
+
+{
+  "dniCliente":"#333##",
+  "nombreCliente": "aaaa Nobi"
+}
+
+### listar clientes
+GET http://localhost:3000/cliente/listar
+
+### actualizar clientes
+PUT http://localhost:3000/cliente/1b4a9229-8125-4351-b82f-dd05a369580b
+Content-Type: application/json
+
+{
+  "dniCliente": "#333##",
+  "nombreCliente": "Gabriel Lopez"
+}
+
+### find bY ID CLIENTE
+GET http://localhost:3000/cliente/1b4a9229-8125-4351-b82f-dd05a369580b
+
+### delete cliente
+DELETE http://localhost:3000/cliente/0717aa00-1bf7-4e6a-b97d-2d08219788ac
+
+
+
+
+
+

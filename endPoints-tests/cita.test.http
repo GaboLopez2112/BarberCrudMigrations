@@ -1,0 +1,24 @@
+POST http://localhost:3000/cita/crear
+Content-Type: application/json
+
+{
+  "idBarber": "3b3a1ee9-b689-405a-9ac3-e7219b9d5a46",
+  "idCorte": "4a7c817e-18e7-4fd0-9f29-bc6de5c1bcbd",
+  "idCliente": "2f3a3f80-acbf-49d2-b382-7d1504e85117",
+  "fechaCita": "2025-12-23T15:30:00"
+}
+
+###listar Citas
+GET http://localhost:3000/cita/listar
+
+
+### Actualizar cita
+PUT http://localhost:3000/cita/a7163af8-3c9f-4885-92ca-569228090aa4
+Content-Type: application/json
+
+{
+  "fechaCita": "2025-07-23T15:30:00"
+}
+
+### find by id
+GET http://localhost:3000/cita/a7163af8-3c9f-4885-92ca-569228090aa4
