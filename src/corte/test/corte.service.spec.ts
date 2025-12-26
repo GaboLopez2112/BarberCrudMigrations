@@ -1,5 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { CorteService } from './corte.service';
+import { CorteService } from '../corte.service';
 
 describe('CorteService', () => {
   let service: CorteService;
